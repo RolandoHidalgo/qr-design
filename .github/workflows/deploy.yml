@@ -11,7 +11,9 @@ on:
 
 jobs:
   build:
-
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write
     runs-on: ubuntu-latest
 
     strategy:

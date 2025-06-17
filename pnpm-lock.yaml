@@ -15,6 +15,9 @@ importers:
         specifier: ^4.1.10
         version: 4.1.10
     devDependencies:
+      typescript:
+        specifier: ~5.8.3
+        version: 5.8.3
       vite:
         specifier: ^6.3.5
         version: 6.3.5(@types/node@24.0.1)(jiti@2.4.2)(lightningcss@1.30.1)
@@ -550,6 +553,11 @@ packages:
     resolution: {integrity: sha512-tX5e7OM1HnYr2+a2C/4V0htOcSQcoSTH9KgJnVvNm5zm/cyEWKJ7j7YutsH9CxMdtOkkLFy2AHrMci9IM8IPZQ==}
     engines: {node: '>=12.0.0'}
 
+  typescript@5.8.3:
+    resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
   undici-types@7.8.0:
     resolution: {integrity: sha512-9UJ2xGDvQ43tYyVMpuHlsgApydB8ZKfVYTsLDhXkFL/6gfkp+U8xTGdh8pMJv1SpZna0zxG1DwsKZsreLbXBxw==}
 
@@ -1000,6 +1008,8 @@ snapshots:
     dependencies:
       fdir: 6.4.6(picomatch@4.0.2)
       picomatch: 4.0.2
+
+  typescript@5.8.3: {}
 
   undici-types@7.8.0:
     optional: true
